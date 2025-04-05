@@ -327,6 +327,7 @@
 .icon-user:before {
   content: "\e005";
 }
+
 .icon-people:before {
   content: "\e001";
 }
@@ -1236,6 +1237,7 @@ textarea:focus{
  .body--white .logo__img {
      -webkit-filter: invert(1);
      filter: invert(1)
+     border-radius: 
  }
 
  .body--white .select-items div,
@@ -15830,4 +15832,16 @@ color: #222;
     padding-bottom: 10px;
     padding-left: 60px;
     margin-bottom: 50px;
+}
+
+.fav-card-1{
+    background-color: #1C4B53;
+}
+
+.fav-card-2{
+    background-color: #B84A4A;
+}
+
+.fav-card-3{
+    background-color: #1C2836;
 }
