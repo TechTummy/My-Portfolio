@@ -1,114 +1,114 @@
  @font-face {
-     font-family: "Clash Grotesk";
-     src: url("../fonts/ClashGrotesk-Variable.woff2") format("woff2"), url("../fonts/ClashGrotesk-Variable.woff") format("woff"), url("../fonts/ClashGrotesk-Variable.ttf") format("truetype");
-     font-weight: 700;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Grotesk";
+    src: url("../fonts/ClashGrotesk-Variable.woff2") format("woff2"), url("../fonts/ClashGrotesk-Variable.woff") format("woff"), url("../fonts/ClashGrotesk-Variable.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Grotesk";
-     src: url("../fonts/ClashGrotesk-Extralight.woff2") format("woff2"), url("../fonts/ClashGrotesk-Extralight.woff") format("woff"), url("../fonts/ClashGrotesk-Extralight.ttf") format("truetype");
-     font-weight: 200;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Grotesk";
+    src: url("../fonts/ClashGrotesk-Extralight.woff2") format("woff2"), url("../fonts/ClashGrotesk-Extralight.woff") format("woff"), url("../fonts/ClashGrotesk-Extralight.ttf") format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Grotesk";
-     src: url("../fonts/ClashGrotesk-Light.woff2") format("woff2"), url("../fonts/ClashGrotesk-Light.woff") format("woff"), url("../fonts/ClashGrotesk-Light.ttf") format("truetype");
-     font-weight: 300;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Grotesk";
+    src: url("../fonts/ClashGrotesk-Light.woff2") format("woff2"), url("../fonts/ClashGrotesk-Light.woff") format("woff"), url("../fonts/ClashGrotesk-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Grotesk";
-     src: url("../fonts/ClashGrotesk-Regular.woff2") format("woff2"), url("../fonts/ClashGrotesk-Regular.woff") format("woff"), url("../fonts/ClashGrotesk-Regular.ttf") format("truetype");
-     font-weight: 400;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Grotesk";
+    src: url("../fonts/ClashGrotesk-Regular.woff2") format("woff2"), url("../fonts/ClashGrotesk-Regular.woff") format("woff"), url("../fonts/ClashGrotesk-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Grotesk";
-     src: url("../fonts/ClashGrotesk-Medium.woff2") format("woff2"), url("../fonts/ClashGrotesk-Medium.woff") format("woff"), url("../fonts/ClashGrotesk-Medium.ttf") format("truetype");
-     font-weight: 500;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Grotesk";
+    src: url("../fonts/ClashGrotesk-Medium.woff2") format("woff2"), url("../fonts/ClashGrotesk-Medium.woff") format("woff"), url("../fonts/ClashGrotesk-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Grotesk";
-     src: url("../fonts/ClashGrotesk-Semibold.woff2") format("woff2"), url("../fonts/ClashGrotesk-Semibold.woff") format("woff"), url("../fonts/ClashGrotesk-Semibold.ttf") format("truetype");
-     font-weight: 600;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Grotesk";
+    src: url("../fonts/ClashGrotesk-Semibold.woff2") format("woff2"), url("../fonts/ClashGrotesk-Semibold.woff") format("woff"), url("../fonts/ClashGrotesk-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Grotesk";
-     src: url("../fonts/ClashGrotesk-Bold.woff2") format("woff2"), url("../fonts/ClashGrotesk-Bold.woff") format("woff"), url("../fonts/ClashGrotesk-Bold.ttf") format("truetype");
-     font-weight: 700;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Grotesk";
+    src: url("../fonts/ClashGrotesk-Bold.woff2") format("woff2"), url("../fonts/ClashGrotesk-Bold.woff") format("woff"), url("../fonts/ClashGrotesk-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal
  } 
 
  @font-face {
-     font-family: "Clash Display";
-     src: url("../fonts/ClashDisplay-Variable.woff2") format("woff2"), url("../fonts/ClashDisplay-Variable.woff") format("woff"), url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
-     font-weight: 700;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Display";
+    src: url("../fonts/ClashDisplay-Variable.woff2") format("woff2"), url("../fonts/ClashDisplay-Variable.woff") format("woff"), url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Display";
-     src: url("../fonts/ClashDisplay-Extralight.woff2") format("woff2"), url("../fonts/ClashDisplay-Extralight.woff") format("woff"), url("../fonts/ClashDisplay-Extralight.ttf") format("truetype");
-     font-weight: 200;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Display";
+    src: url("../fonts/ClashDisplay-Extralight.woff2") format("woff2"), url("../fonts/ClashDisplay-Extralight.woff") format("woff"), url("../fonts/ClashDisplay-Extralight.ttf") format("truetype");
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Display";
-     src: url("../fonts/ClashDisplay-Light.woff2") format("woff2"), url("../fonts/ClashDisplay-Light.woff") format("woff"), url("../fonts/ClashDisplay-Light.ttf") format("truetype");
-     font-weight: 300;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Display";
+    src: url("../fonts/ClashDisplay-Light.woff2") format("woff2"), url("../fonts/ClashDisplay-Light.woff") format("woff"), url("../fonts/ClashDisplay-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Display";
-     src: url("../fonts/ClashDisplay-Regular.woff2") format("woff2"), url("../fonts/ClashDisplay-Regular.woff") format("woff"), url("../fonts/ClashDisplay-Regular.ttf") format("truetype");
-     font-weight: 400;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Display";
+    src: url("../fonts/ClashDisplay-Regular.woff2") format("woff2"), url("../fonts/ClashDisplay-Regular.woff") format("woff"), url("../fonts/ClashDisplay-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Display";
-     src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
-     font-weight: 500;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Display";
+    src: url("../fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Display";
-     src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
-     font-weight: 600;
-     font-display: swap;
-     font-style: normal
+    font-family: "Clash Display";
+    src: url("../fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal
  }
 
  @font-face {
-     font-family: "Clash Display";
-     src: url("../fonts/ClashDisplay-Bold.woff2") format("woff2"), url("../fonts/ClashDisplay-Bold.woff") format("woff"), url("../fonts/ClashDisplay-Bold.ttf") format("truetype");
-     font-weight: 700;
-     font-display: swap;
-     font-style: normal
- }
+    font-family: "Clash Display";
+    src: url("../fonts/ClashDisplay-Bold.woff2") format("woff2"), url("../fonts/ClashDisplay-Bold.woff") format("woff"), url("../fonts/ClashDisplay-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal
+}
 
 
 
@@ -994,8 +994,8 @@
 
  html,
  body {
-     font-family: "Clash Display";
-     scroll-behavior: smooth
+    font-family: "Clash Display";
+    scroll-behavior: smooth
  }
 
  body {
@@ -1236,8 +1236,8 @@ textarea:focus{
 
  .body--white .logo__img {
      -webkit-filter: invert(1);
-     filter: invert(1)
-     border-radius: 
+     filter: invert(1);
+     border-radius: 4px;
  }
 
  .body--white .select-items div,
@@ -2249,59 +2249,60 @@ textarea:focus{
      border: 1px solid #d7dadd
  }
 
- .body--white .login-form-socials__or span {
+.body--white .login-form-socials__or span {
      background: #d7dadd
- }
+}
 
- .body--white.body--active .header__wrapper {
-     background: #fff
- }
+.body--white.body--active .header__wrapper {
+    background: #fff
+}
 
- .fancybox__content :focus:not(.carousel__button.is-close) {
+.fancybox__content :focus:not(.carousel__button.is-close) {
      outline: unset
- }
+}
 
- .header {
-     padding: 16px 0;
-     border-bottom: 1px solid #4b515a;
-     padding-left: 80px;
-     position: sticky;
-     top: 0;
-     z-index: 100;
-     background: #0e1218
- }
+.header {
+    padding: 27px 0;
+    border-bottom: 1px solid #4b515a;
+    padding-left: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #0e1218
+}
 
 
 .index .header {
     padding-left: 0;
 }
 
- .header__inner {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-align: center;
-     -ms-flex-align: center;
-     align-items: center
- }
+.header__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
 
- .header__wrapper {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-align: center;
-     -ms-flex-align: center;
-     align-items: center
- }
+.header__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
 
- .header__logo {
-     margin-right: auto;
-     display: flex;
- }
+.header__logo {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
 
- .header__search {
+.header__search {
      margin-right: 15px
- }
+}
 
  .header__search:hover .search__btn {
      -webkit-transition: right .3s;
@@ -2473,18 +2474,15 @@ textarea:focus{
 
  @media(max-width: 1210px) {
      .logo {
-         width: calc(110px + 51 * ((100vw - 375px) / 835));
-         margin-left: 60px;
+        width: calc(110px + 51 * ((100vw - 375px) / 835));
+        margin-left: 60px;
      }
  }
 
  .logo__img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
-    position: relative;
-    top: -3px;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
  }
 
  .header-search {
@@ -4759,37 +4757,59 @@ textarea:focus{
  }
 
  .section-top {
-     margin-bottom: 40px
+    margin-bottom: 40px
  }
 
  @media(max-width: 1210px) {
-     .section-top {
-         margin-bottom: calc(20px + 20 * ((100vw - 375px) / 835))
-     }
+    .section-top {
+        margin-bottom: calc(20px + 20 * ((100vw - 375px) / 835))
+    }
  }
+
+ 
 
  .section-top__inner {
-     border-radius: 25px;
-     border: 1px solid #4b515a;
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-align: start;
-     -ms-flex-align: start;
-     align-items: flex-start;
-     gap: 60px;
-     padding: 60px
+    border-radius: 25px;
+    border: 1px solid #4b515a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px
  }
+
+
+ .section-top__inner-Nameless {
+    background-color: #1C4B53;
+    height: 924px;
+    border-radius: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px
+ }
+
+
+
+
 
  @media(max-width: 1210px) {
      .section-top__inner {
-         gap: calc(15px + 45 * ((100vw - 375px) / 835))
+        gap: calc(15px + 45 * ((100vw - 375px) / 835))
      }
  }
 
  @media(max-width: 1210px) {
      .section-top__inner {
-         padding: calc(30px + 30 * ((100vw - 375px) / 835))
+        padding: calc(30px + 30 * ((100vw - 375px) / 835))
      }
  }
 
@@ -4832,19 +4852,198 @@ textarea:focus{
      }
  }
 
+
  .section-top-content {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-orient: vertical;
-     -webkit-box-direction: normal;
-     -ms-flex-direction: column;
-     flex-direction: column;
-     -webkit-box-align: start;
-     -ms-flex-align: start;
-     align-items: flex-start;
-     max-width: 500px
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    max-width: 500px
  }
+
+
+ .section-top-content-Nameless {
+    position: relative;
+    background-color: #133237;
+    max-height: 612px;
+    height: 100%;
+    max-width: 1134px;
+    width: 100%;
+    border-radius: 24px;
+    padding-top: 80px;
+    padding-left: 80px;
+    overflow: hidden !important;
+ }
+
+ .section-top-content__Grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+ }
+
+
+ .Nameless-logo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+
+ .Nameless-logo .Nameless-text {
+   color: #FFFFFF;
+   font-family: 'Clash Display', sans-serif;
+   font-size: 16px;
+   line-height: 25px;
+   letter-spacing: -4%;
+   font-weight: 800;
+ }
+
+
+ .Nameless__text {
+    position: absolute;
+    padding-top: 50px;
+ }
+
+ .Nameless-bold-text {
+   color: #FFFFFF;
+   font-family: 'Clash Display', sans-serif;
+   font-size: 64px;
+   line-height: 127%;
+   font-weight: 600;
+   max-width: 841px;
+ }
+
+
+ .Nameless-normal-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    font-family: 'Clash Display', sans-serif;
+    max-width: 580px;
+    padding-top: 30px;
+ }
+
+
+ .Nameless__Image {
+    position: absolute;
+    right: 377px;
+    top: 318px;
+ }
+
+
+ @media(max-width: 1280px) {
+    .Nameless__Image{
+        right: 77px;
+        top: 318px;
+    }
+ }
+
+
+
+
+
+ .section-top__Nameless-bottom {
+   display: flex;
+   align-items: center;
+   place-items: center;
+   justify-content: space-between !important;
+   width: 100%;
+ }
+
+ .team-text {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+    text-transform: uppercase;
+ }
+
+
+ .myteam__text {
+    color: #0E1218;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+    text-transform: uppercase;
+ }
+
+
+ .team-bg {
+    background-color: #9981C2;
+    max-width: 88px;
+    width: 100%;
+    height: 24px;
+    height: 100%;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+ }
+
+ .myteam__bg {
+    background-color: #FFFFFF;
+    max-width: 88px;
+    text-align: center;
+    width: 100%;
+    height: 24px;
+    height: 100%;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+ }
+
+
+ .section-top__Nameless-bottom-img  {
+    padding-top: 20px;
+ }
+
+
+ .title__Nameless {
+    padding-top: 17px;
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+ }
+
+ .section-top__Nameless-bottom-info {
+    display: flex;
+    gap: 10px;
+    padding-top: 17px;
+ }
+
+
+ .date__Nameless {
+    font-size: 13.23px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-family: 'Clash Display', sans-serif;
+ }
+
+ .comment-num__Nameless {
+    font-size: 13.23px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 20px;
+    font-family: 'Clash Display', sans-serif;
+ }
+
+
+
+
+
 
  .section-top-content__date {
      color: #6d9985;
@@ -4855,6 +5054,9 @@ textarea:focus{
      line-height: 24px;
      font-weight: 600
  }
+
+
+
 
  @media(max-width: 1210px) {
      .section-top-content__date {
@@ -5124,19 +5326,21 @@ textarea:focus{
  }
 
  .tabs {
+    white-space: nowrap;
+    flex-shrink: 0;
      display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-align: center;
-     -ms-flex-align: center;
-     align-items: center;
-     padding-bottom: 40px;
-     margin-bottom: 25px;
-     border-bottom: 1px solid #4b515a;
-     gap: 25px;
-     -ms-flex-wrap: wrap;
-     flex-wrap: wrap;
-     row-gap: 15px
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; 
+    /* padding-bottom: 40px;
+    margin-bottom: 25px; */
+    /* border-bottom: 1px solid #4b515a; */
+    gap: 25px;
+    /* -ms-flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    row-gap: 15px
  }
 
  @media(max-width: 1210px) {
@@ -5190,29 +5394,29 @@ textarea:focus{
  }
 
  .tabs__btn span {
-     border-radius: 4px;
-     background: #7d838c;
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-pack: center;
-     -ms-flex-pack: center;
-     justify-content: center;
-     -webkit-box-align: center;
-     -ms-flex-align: center;
-     align-items: center;
-     color: #0e1218;
-     text-align: center;
-     leading-trim: both;
-     text-edge: cap;
-     font-size: 14px;
-     font-weight: 600;
-     line-height: 18px;
-     padding: 1px 12px;
-     min-width: 32px;
-     -webkit-transition: background .3s, color .3s;
-     -o-transition: background .3s, color .3s;
-     transition: background .3s, color .3s
+    border-radius: 4px;
+    background: #7d838c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #0e1218;
+    text-align: center;
+    /* leading-trim: both;
+    text-edge: cap; */
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 1px 12px;
+    min-width: 32px;
+    -webkit-transition: background .3s, color .3s;
+    -o-transition: background .3s, color .3s;
+    transition: background .3s, color .3s
  }
 
  .tabs__btn:hover {
@@ -5224,7 +5428,9 @@ textarea:focus{
  }
 
  .tabs__btn--active {
-     color: #fff
+    color: #fff;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
  }
 
  .tabs__btn--active span {
@@ -10040,18 +10246,18 @@ textarea:focus{
  }
 
  .section-top .card-list__link-img:nth-child(1) {
-     -webkit-transform: unset;
-     -ms-transform: unset;
-     transform: unset
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset
  }
 
  .section-top--space {
-     margin-top: 100px
+     margin-top: 55px
  }
 
  @media(max-width: 1210px) {
      .section-top--space {
-         margin-top: calc(20px + 80 * ((100vw - 375px) / 835))
+        margin-top: calc(20px + 80 * ((100vw - 375px) / 835))
      }
  }
 
@@ -10376,12 +10582,12 @@ textarea:focus{
  }
 
  .aside-block {
-     border-radius: 25px;
-     background: #2d333c;
-     padding-top: 40px;
-     padding-right: 40px;
-     padding-bottom: 40px;
-     padding-left: 40px
+    border-radius: 25px;
+    background: #171B21;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px
  }
 
  @media(max-width: 1210px) {
@@ -11537,20 +11743,322 @@ textarea:focus{
      gap: 20px
  }
 
- .post {
-     position: relative;
-     border-radius: 25px;
-     background: #2d333c;
-     padding-top: 60px;
-     padding-right: 60px;
-     padding-bottom: 60px;
-     padding-left: 60px
+ .group-profile-posts__img {
+    border-radius: 24px;
  }
 
+ .post {
+    position: relative;
+    border-radius: 25px;
+    background: #2d333c;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px
+ }
+
+
+ .intro__h1  {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+ }
+
+ .intro__p {
+    font-family: 'Clash Display', sans-serif;
+    color: #CBCBCB;
+    font-size: 16px;
+    font-weight: 400;
+ } 
+
+
+ .intro__bg {
+    background-color: #171B21;
+    padding: 40px;
+    border-radius: 24px;
+    max-width: 812px;
+    width: 100%;
+    /* height: 560px; */
+ }
+
+
+ .context__h1 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Clash Display', sans-serif;
+    color: #6D9985;
+    line-height: 200%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+
+ .context__p {
+    list-style-type: disc;
+    font-size: 16px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+    line-height: 200%;
+ }
+
+ .deliverables__h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Clash Display', sans-serif;
+    color: #FFFFFF;
+ }
+
+ .deliverables__h2{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Clash Display', sans-serif;
+    color: #FFFFFF;
+ }
+
+ .deliverables__p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    max-width: 157px;
+ }
+
+ .deliverables__box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ }
+
+
+ .deliverables__box-wrapper {
+    padding-top: 40px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+ }
+
+
+ .tools__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 66px;
+    border-radius: 10px;
+ }
+
+
+ .tools__box-wrapper {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+ }
+
+ .tools__button {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+ }
+
+ .role__box1 {
+    background-color: #212832;
+    border-radius: 16px;
+    padding: 24px;
+ }
+
+ .role__box2 {
+    background-color: #212832;
+    padding: 24px;
+    border-radius: 16px;
+ }
+
+ .role__box3 {
+    background-color: #212832;
+    padding: 24px;
+    border-radius: 16px;
+ }
+
+ .role__flexbox {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 20px;
+ }
+
+
+ .group-profile-posts__comment {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+ }
+
+
+ .Comment__container {
+    padding-top: 30px;
+ }
+
+
+
+
+
+
+.feedback-container h1 {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.feedback-container textarea,
+.feedback-container input[type="text"],
+.feedback-container input[type="email"] {
+  width: 100%;
+  background-color: #262D38;
+  color: #fff;
+  border: 1px solid #4B515A;
+  padding:  16px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  resize: vertical;
+  font-size: 14px;
+}
+
+
+.feedback-container textarea {
+  height: 134px;
+}
+
+.feedback-container input[type="text"],
+.feedback-container input[type="email"] {
+    height: 60px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+.feedback-container button {
+  background-color: #9981C2;
+  color: #fff;
+  height: 48px;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+/* .feedback-container button:hover {
+  background-color: #8b5cf6;
+} */
+
+/* .checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 12.91px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: 'Clash Display', sans-serif;
+  color: #FFFFFF;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 8px;
+} */
+
+
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  font-size: 12.91px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: 'Clash Display', sans-serif;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom-checkbox .checkmark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  border: 1.5px solid #666;
+  border-radius: 4px;
+}
+
+/* Show checkmark when checked */
+.custom-checkbox input:checked + .checkmark {
+  background-color: transparent;
+  /* border-color: #00c264; */
+}
+
+.custom-checkbox .checkmark::after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  display: block;
+  left: 4px;
+  top: 0px;
+  width: 6px;
+  height: 12px;
+  border: 2px solid #6D9985;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+.TOC__link {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
  @media(max-width: 1210px) {
-     .post {
-         padding-top: calc(30px + 30 * ((100vw - 375px) / 835))
-     }
+    .post {
+        padding-top: calc(30px + 30 * ((100vw - 375px) / 835))
+    }
  }
 
  @media(max-width: 1210px) {
@@ -11831,14 +12339,15 @@ textarea:focus{
  }
 
  .post-body-view--grid {
-     display: -ms-grid;
-     display: grid;
-     gap: 8px;
-     -ms-grid-columns: (1fr)[3];
-     grid-template-columns: repeat(3, 1fr);
-     height: unset;
-     max-height: unset
+    display: -ms-grid;
+    display: grid;
+    gap: 8px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    height: unset;
+    max-height: unset;
  }
+
 
  .post-body-view--grid .post-body-view__link {
      display: block;
@@ -15788,9 +16297,12 @@ color: #222;
  @media(max-width: 1100px) {
 
 .works_list_col2{
-       -ms-grid-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr; 
 }
+
+
+
 .works_list_col3{
        -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -15845,3 +16357,8 @@ color: #222;
 .fav-card-3{
     background-color: #1C2836;
 }
+
+
+
+/* My Styling */
+
