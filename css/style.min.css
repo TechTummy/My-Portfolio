@@ -12047,15 +12047,17 @@ textarea:focus{
  }
 
  .group-profile-posts__img {
-    border-radius: 24px;
- }
+    border-radius: 24px !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    display: block !important;
+    object-fit: cover !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+}
 
 
- @media (max-width: 992px) {
-    .group-profile-posts__img {
-        width: 700px;
-    }
- }
 
  .post {
     position: relative;
@@ -12470,8 +12472,103 @@ textarea:focus{
     border-radius: 24px;
     max-width: 812px;
     width: 100%;
-    /* height: 560px; */
- }
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .intro__bg {
+        padding: 20px;
+        border-radius: 16px;
+        margin: 0 16px;
+        width: calc(100% - 32px);
+    }
+    
+    .intro__h1 {
+        font-size: 32px;
+    }
+    
+    .intro__p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+    
+    .intro__p[style*="padding-top: 30px"] {
+        padding-top: 20px !important;
+    }
+    
+    .intro__p[style*="padding-top: 40px"] {
+        padding-top: 24px !important;
+    }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+    .intro__bg {
+        padding: 16px;
+        border-radius: 12px;
+        margin: 0 12px;
+        width: calc(100% - 24px);
+    }
+    
+    .intro__h1 {
+        font-size: 32px;
+    }
+    
+    .intro__p {
+        font-size: 0.85rem;
+    }
+    
+    .intro__p[style*="padding-top: 30px"] {
+        padding-top: 16px !important;
+    }
+    
+    .intro__p[style*="padding-top: 40px"] {
+        padding-top: 20px !important;
+    }
+}
+
+
+
+/* Responsive image container */
+.image-container {
+    width: 100%;
+    max-width: 812px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .image-container {
+        padding: 0 12px;
+    }
+    
+    .image-container img {
+        border-radius: 6px;
+    }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+    .image-container {
+        padding: 0 8px;
+    }
+    
+    .image-container img {
+        border-radius: 4px;
+    }
+}
+
 
 
  .context__h1 {
@@ -12529,27 +12626,16 @@ textarea:focus{
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(2, 1fr);
- }
+}
 
 
- .tools__box-wrapper {
+.tools__box-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
+    padding-top: 30px;
 }
 
-@media (max-width: 768px) {
-    .tools__box-wrapper {
-        grid-template-columns: repeat(2 , 1fr);
-    }
-}
-
-
-@media (max-width: 468px) {
-    .tools__box-wrapper {
-        grid-template-columns: repeat(2 , 1fr);
-    }
-}
 
 .tools__box {
     display: flex;
@@ -12580,6 +12666,98 @@ textarea:focus{
     gap: 24px;
  }
 
+ @media (max-width: 768px) {
+    .deliverables__box-wrapper {
+        padding-top: 30px;
+        gap: 30px;
+        grid-template-columns: 1fr;
+    }
+    
+    .deliverables__box {
+        gap: 12px;
+    }
+    
+
+    .deliverables__p {
+        font-size: 15px;
+    }
+    
+    .tools__box-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+    
+    .tools__box {
+        height: 60px;
+        padding: 12px;
+        gap: 8px;
+    }
+    
+    .tools__box img {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .tools__box p {
+        font-size: 12px;
+    }
+    
+    .tools__button {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .tools__button button {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    .deliverables__box-wrapper {
+        padding-top: 24px;
+        gap: 24px;
+    }
+    
+    .deliverables__box {
+        gap: 10px;
+    }
+
+    
+    .deliverables__p {
+        font-size: 14px;
+    }
+    
+    .tools__box-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    .tools__box {
+        height: 55px;
+        padding: 8px;
+        gap: 6px;
+        flex-direction: column;
+    }
+    
+
+    
+    .tools__box p {
+        font-size: 11px;
+        line-height: 1.2;
+    }
+    
+    .tools__button {
+        padding-top: 24px;
+    }
+    
+    .tools__button button {
+        height: 45px;
+        font-size: 13px;
+    }
+}
+
  .role__box1 {
     background-color: #212832;
     border-radius: 16px;
@@ -12601,7 +12779,9 @@ textarea:focus{
  .role__flexbox {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 24px;
+    width: 100%;
     padding-top: 20px;
  }
 
