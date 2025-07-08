@@ -13334,6 +13334,146 @@ textarea:focus{
 }
 
 
+
+.accordion-header__h1 {
+    max-width: 626px;
+    width: 100%;
+}
+
+
+
+.Brandbook__h1 {
+    font-size: 36px;
+    font-weight: 600; 
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
+.Interface__h1 {
+
+    font-size: 36px;
+    font-weight:  600;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+
+
+.competitor-analysis__h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
+.competitor-analysis__p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+
+
+.screenshot__h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+
+
+.moodboard__h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+
+.moodboard__p {
+    font-weight: 300;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+
+
+.color__h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+
+
+
+.color__p {
+    color: #FFFFFF;
+    line-height: 150%;
+    max-width: 650px;
+    font-size: 16px;
+}
+
+
+
+
+.typography__h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+
+.GE__h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+
+
+.GE__P {
+    color: #9E9E9E;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+
+
+
+.shopping__h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.Landing__h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.Fullycustom__h1 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+
+
 @media (max-width: 768px) {
 
     .QA__h1 {
@@ -13347,8 +13487,115 @@ textarea:focus{
         max-width: 352px;
         width: 100%;
     }
+
+    .Brandbook__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
+
+    .Interface__h1 {
+
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
     
+    }
+
+    .competitor-analysis__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
+
+    .competitor-analysis__p {
+        font-size: 11px;
+        color: #FFFFFF;
+        line-height: 100%;
+        font-weight: 700;
+    }
+
+    .screenshot__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
+
+
+    .moodboard__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
+
+    .moodboard__p {
+        font-weight: 300;
+        line-height: 100%;
+        font-size: 12px;
+    }
+
+
+    .color__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
+
+    .color__p {
+        color: #FFFFFF;
+        line-height: 100%;
+        max-width: 650px;
+        font-size: 12px;
+    }
+
+
+    .typography__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
+
+    .GE__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
+
+    .GE__P {
+        color: #9E9E9E;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+
+    .shopping__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
     
+    .Landing__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
+
+    .Fullycustom__h1 {
+        font-size: 22px;
+        font-weight: 600; 
+        line-height: 20.24px;
+        color: #FFFFFF;
+    }
 }
     
 
@@ -13367,7 +13614,114 @@ textarea:focus{
         max-width: 290px;
         width: 100%;
     }
+
+    .Brandbook__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+    .Interface__h1 {
+
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
     
+    }
+
+    .competitor-analysis__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+
+    .competitor-analysis__p {
+        font-size: 11px;
+        color: #FFFFFF;
+        line-height: 100%;
+        font-weight: 700;
+    }
+
+    .screenshot__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+    .moodboard__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+    .moodboard__p {
+        font-weight: 400;
+        line-height: 100%;
+        font-size: 12px;
+    }
+
+    .color__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+    .color__p {
+        color: #FFFFFF;
+        line-height: 100%;
+        max-width: 650px;
+        font-size: 12px;
+    }
+
+    .typography__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+
+    .GE__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+    .GE__P {
+        color: #9E9E9E;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+
+    .shopping__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+    .Landing__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
+
+    .Fullycustom__h1 {
+        font-size: 17px;
+        font-weight: 600; 
+        line-height: 16.15px;
+        color: #FFFFFF;
+    }
 }
 
 
