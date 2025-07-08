@@ -2123,7 +2123,87 @@ textarea:focus{
  }
 
  .body--white .group-card-content__title {
-     color: #0e1218
+    color: #0e1218
+ }
+
+ .body--white  .design__descrip {
+    color: #0e1218
+ }
+
+ .body--white .design__descrip-P {
+    color: #0e1218
+ }
+
+ .body--white .design-descrip-key {
+    color: #0e1218
+ }
+
+ .body--white .Keywords-2__h1 {
+    color: #0e1218
+ }
+
+ .body--white .key-ins__div p {
+    color: #0e1218
+ }
+
+ .body--white .deliverables__h1 {
+    color: #0e1218
+ }
+
+ .body--white .candence-deliverables__div  h1 {
+    color: #0e1218
+ }
+
+ .body--white .Tools__h1 {
+    color: #0e1218
+ }
+
+ .body--white .tools__box p {
+    color: #0e1218
+ }
+
+ .body--white .comments__h1 {
+    color: #0e1218
+ }
+
+ .body--white .Commentor__name {
+    color: #0e1218
+ }
+
+ .body--white .commentors__comment {
+    color: #0e1218
+ }
+
+ .body--white .feedback-container-cadence h1 {
+    color: #0e1218
+ }
+
+ .body--white .feedback-container-cadence label {
+    color: #0e1218
+ }
+
+ .body--white .feedback-container-cadence textarea {
+    background-color: #eef2f6;
+    color: #0e1218;
+ }
+
+ .body--white .feedback-container-cadence input[type="text"] {
+    background-color: #eef2f6;
+    color: #0e1218;
+ }
+
+ .body--white  .feedback-container-cadence input[type="email"] {
+    background-color: #eef2f6;
+    color: #0e1218;
+ }
+ 
+
+ .body--white .cadence__text {
+    color: #0e1218;
+ }
+
+ .body--white .cadence__text a {
+    color: #0e1218 !important;
  }
 
  .body--white .file {
