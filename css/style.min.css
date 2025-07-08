@@ -2206,6 +2206,94 @@ textarea:focus{
     color: #0e1218 !important;
  }
 
+ .body--white .QA__h1 {
+    color: #0e1218;
+ }
+
+ .body--white .accordion {
+    color: #0e1218;
+ }
+
+ .body--white .Brandbook__h1 {
+    color: #0e1218;
+ }
+
+ .body--white .Interface__h1 {
+    color: #0e1218;
+ }
+
+
+ .body--white .competitor-analysis__h1{
+    color: #0e1218;
+ }
+
+ .body--white .competitor-analysis__p {
+    color: #0e1218 !important;
+ }
+
+
+ .body--white .quicklink__one {
+    color: #0e1218 !important;
+ }
+
+ .body--white .screenshot__h1 {
+    color: #0e1218;
+ }
+
+ .body--white .companies__h1 {
+    color: #0e1218 !important;
+ }
+
+
+ .body--white .companies__link {
+    color: #0e1218 !important;
+ }
+
+ .body--white .moodboard__h1 {
+    color: #0e1218 !important;
+ }
+
+ .body--white .moodboard__p {
+    color: #0e1218 !important;
+ }
+
+ .body--white .small__h1 {
+    color: #0e1218 !important;
+ }
+
+.body--white .color__h1 {
+    color: #0e1218 !important;
+}
+
+.body--white .color__p {
+    color: #0e1218 !important;
+}
+
+.body--white .typography__h1 {
+    color: #0e1218 !important;
+}
+
+.body--white .GE__h1 {
+    color: #0e1218 !important;
+}
+
+
+.body--white .shopping__h1 {
+    color: #0e1218 !important;
+}
+
+.body--white .Landing__h1 {
+    color: #0e1218 !important;
+}
+
+.body--white .Fullycustom__h1 {
+    color: #0e1218 !important;
+}
+
+.body--white .tabs--scrolled {
+    background-color: #eef2f6;
+}
+
  .body--white .file {
      background: #fff
  }
