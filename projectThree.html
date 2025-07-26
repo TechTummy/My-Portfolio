@@ -2041,11 +2041,15 @@
 
                                 <p class="Kruzin-normal-text">We built Kruzin Connect for riders who need more than a quick pickup — they need support, safety, and trust. From certified drivers to door-to-door assistance, every design decision focused on creating a reliable, stress-free experience for seniors, children, and caregivers alike.</p>
                             </div>
+
                         </div>
 
-                       <!-- <div class="Kruzin__Image">
+                        
+                        <div class="Kruzin__Image">
                             <img class="" src="images/KruzinMockup.svg" alt="KruzinMockup">
-                       </div> -->
+                       </div>
+
+                      
 
 
                         <div class="section-top__Nameless-bottom">
@@ -3876,80 +3880,81 @@
                             <!-- group-profile__media group-profile-media  -->
                             <section class="group-profile-posts__inner">
 
-                                <div class="intro__bg" id="designprocess">
+                                <div  class="intro__bg" id="designprocess">
                                     <h1 style="color: #6D9985; font-size: 24px; font-weight: 600; line-height: 150%;">Design Process</h1>
                                     <p class="design__process-p" style="font-size: 16px; font-weight: 500; line-height: 170%; padding-top: 10px;">We mapped out three key user journeys:</p>
-                                
-                                    <div class="flow-container">
-                                        <div class="flow-header">Shopper → Brand Owner Flow</div>
-                                        <div class="flow-content">
-                                            <div class="flow-step active">
-                                                <h1>Homepage</h1>
+
+                                    <div class="flow-container2">
+                                        <div class="flow-header2" style="text-align: start;"> Rider Journey User Flow (Step-by-Step)</div>
+
+                                        <div style="border: 3px solid #1F2937;">
+                                            <div class="node circle start">Open App</div>
+                                            <div class="arrow"><img src="images/Arrowdownn.svg" alt="arrow" /></div>
+                                            <div class="node circle">Show Current Location on Map</div>
+                                            <div class="arrow"><img width="0px" height="32px" src="images/Arrowdownn.svg" alt="arrow" /></div>
+                                            <div class="node circle">Enter Destination</div>
+                                            <div class="arrow"><img src="images/Arrowdownn.svg" alt="arrow" /></div>
+                                            <div class="row">
+                                              <div class="column">
+                                                <div class="node diamond"><span>Check if Past Destination Selected?</span></div>
+                                                <div class="arrow"><img src="images/Arrowdownn.svg" /></div>
+                                                <div class="node circle">Select from Ride History</div>
+                                                <div class="arrow"><img src="images/Arrowdownn.svg" /></div>
+                                                <div class="node circle">Search & Enter New Address</div>
+                                              </div>
+                                              <div class="curved-arrows">
+                                                <img src="images/RightCurve.svg" alt="curve" />
+                                                <!-- <img src="images/LeftCurve.svg" alt="curve" /> -->
+                                              </div>
                                             </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step inactive">
-                                                <h1>Browse</h1>
+                                            <div class="node diamond"><span>Ride Now or Schedule?</span></div>
+                                            <div class="arrow"><img src="images/Arrowdownn.svg" /></div>
+                                            <div class="row">
+                                                <div class="node circle">Choose Time + Confirm Schedule</div>
+
+                                                <div class="node circle">Request Ride</div>
                                             </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step inactive">
-                                                <h1>Buy Shirt</h1>
+                                             <div class="arrow"><img src="images/Arrowdownn.svg" /></div>
+                                            <div class="row">
+                                              <div class="column">
+                                                <!-- <div class="arrow"><img src="images/Arrowdownn.svg" /></div> -->
+                                                <div class="node circle">Choose Ride Type</div>
+                                              </div>
+                                              <div class="column">
+                                                <!-- <div class="arrow"><img src="images/Arrowdownn.svg" /></div> -->
+                                                <div class="node circle">View Driver Profile</div>
+                                              </div>
                                             </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step inactive">
-                                                <h1>Claim Brand</h1>
+                                            <div class="node diamond"><span>Call or Chat with Driver?</span></div>
+                                            <div class="arrow"><img src="images/Arrowdownn.svg" /></div>
+                                            <div class="row">
+                                                <div class="node circle">Initiate Call or Message</div>
+                                                <div class="node circle">Continue</div>
                                             </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step active">
-                                                <h1>Access Dashboard</h1>
+                                            <div class="arrow"><img src="images/Arrowdownn.svg" /></div>
+                                            <div class="node diamond"><span>Cancel Ride?</span></div>
+                                            <div class="arrow" style="margin-top: 20px;"><img src="images/Arrowdownn.svg" /></div>
+                                            <div class="row">
+                                              <div class="node circle">Cancel Flow → Confirm Cancel</div>
+                                              <div class="node circle">Continue Ride</div>
                                             </div>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="flow-container">
-                                        <div class="flow-header">Creator Flow</div>
-                                        <div class="flow-content">
-                                            <div class="flow-step active">
-                                                <h1>Login</h1>
+                                            <div class="arrow"><img src="images/Arrowdownn.svg" /></div>
+                                            <div class="row">
+                                              <div class="node circle">Track Ride in Progress</div>
+                                              <div><img src="images/Connectorline.svg"  alt="connector" class="connector"></div>
+                                              <div class="node circle">Complete Ride</div>
+                                              <div><img src="images/Connectorline.svg"  alt="connector" class="connector"></div>
+                                              <div class="node circle">Rate & Tip Driver</div>
+                                              <div><img src="images/Connectorline.svg"  alt="connector" class="connector"></div>
+                                              <div class="node circle">View Driver Profile / Save as Favorite</div>
                                             </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step inactive">
-                                                <h1>Customize Profile</h1>
-                                            </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step inactive">
-                                                <h1>Promote Brand</h1>
-                                            </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step active">
-                                                <h1>Track Commissions</h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="flow-container">
-                                        <div class="flow-header">Pro Upgrade Flow</div>
-                                        <div class="flow-content">
-                                            <div class="flow-step active">
-                                                <h1>Dashboard</h1>
-                                            </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step inactive">
-                                                <h1>Unlock Pro Benefits</h1>
-                                            </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step inactive">
-                                                <h1>Payment</h1>
-                                            </div>
-                                            <img src="images/Connectorline.svg" alt="connectorline" class="connector">
-                                            <div class="flow-step active">
-                                                <h1>Unlock Tools + Analytics</h1>
-                                            </div>
+                                            <div class="arrow"><img src="images/Arrowdownn.svg" /></div>
+                                            <div class="node circle end">End Rider Journey</div>
                                         </div>
                                     </div>
                                 </div>
 
-
-                                <div class="intro__bg" id="uiscreens">
+                                <div class="intro__bg" id="designSystems">
                                     <h1 style="color: #6D9985; font-size: 24px; font-weight: 600; line-height: 150%; margin-bottom: 20px;">Design system</h1>
 
                                     <div>
@@ -4058,15 +4063,15 @@
  
                                      <div style="display: flex;  align-items: center; gap: 10px; opacity: 0.5; padding-top: 20px; ">
                                          <a href="#designprocess" class="TOC__link">
-                                            User journeys
+                                            Design Process
                                          </a>
  
                                          <img style="width: 18px; height: 18px;" src="images/GotoArrow.svg" alt="gotoArrow" >
                                      </div>
  
                                      <div style="display: flex;  align-items: center; gap: 10px; opacity: 0.5; padding-top: 20px; ">
-                                         <a href="#uiscreens" class="TOC__link">
-                                            UI Screens
+                                         <a href="#designSystems" class="TOC__link">
+                                            Design Systems
                                          </a>
  
                                          <img style="width: 18px; height: 18px;" src="images/GotoArrow.svg" alt="gotoArrow" >
