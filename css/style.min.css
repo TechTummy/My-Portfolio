@@ -5445,8 +5445,30 @@ textarea:focus{
  }
 
 
+ 
+
+ .solution__flexbox {
+    display: flex;
+    align-items: start;
+    /* justify-content: center; */
+    gap: 40px;
+ }
 
 
+ .solution__flexbox > div {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+}
+
+
+ @media (max-width: 768px) {
+    .solution__flexbox {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+ }
 
 
 
@@ -13893,14 +13915,14 @@ textarea:focus{
     background-color: #171B21;
 }
 
-.feature__drivers, 
+/* .feature__drivers, 
 .feature__comparison, 
 .feature__door ,
 .feature__alerts, 
 .feature__booking, 
 .feature__history {
 
-}
+} */
 
 .feature__drivers {
     max-width: 162px;
@@ -14199,6 +14221,14 @@ textarea:focus{
         max-width: 100%;
     }
 
+    .registered__div , 
+    .monthly__div, 
+    .assisted__div, 
+    .geographic__div {
+        max-width: 100%;
+        width: 100%;
+    }
+
     .uber__h1,
     .lyft__h1,
     .go__green__check,
@@ -14318,6 +14348,8 @@ textarea:focus{
        grid-template-columns: 1fr ;
        align-items: center;
        justify-content: center;
+       max-width: 100%;
+       width: 100%;
     }
 
 }
