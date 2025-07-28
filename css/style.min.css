@@ -13913,6 +13913,362 @@ textarea:focus{
     background-color: #171B21;
 }
 
+
+
+.feature__div {
+    display: flex;
+    align-items: start;
+    /* max-width: 100%; */
+    gap: 8px;
+    padding-top: 20px;
+    /* width: 100%; */
+}
+
+.feature__feature {
+    background-color: #171B21;
+    max-width: 162px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+}
+
+
+
+.Nameless__feature {
+    background-color: #171B21;
+    max-width: 144px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 170%;
+}
+
+
+
+
+.GreenCheck__div {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 144px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.GreenCheck__div1 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 144px;
+    width: 100%;
+    padding: 20px 16px;
+    height: 85px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.GreenCheck__div2 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 144px;
+    width: 100%;
+    padding: 20px 16px;
+    height: 87px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.GreenCheck__div3 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 144px;
+    width: 100%;
+    padding: 20px 16px;
+    height: 105px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.GreenCheck__div4 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 144px;
+    width: 100%;
+    padding: 20px 16px;
+    height: 112px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.GreenCheck__div5 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 144px;
+    width: 100%;
+    padding: 20px 16px;
+    height: 85px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.GreenCheck__div6 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 144px;
+    width: 100%;
+    padding: 20px 16px;
+    height: 110px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.Teespring  {
+    background-color: #171B21; 
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+}
+
+
+
+
+.Cancel__div {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ; 
+    align-items: center;
+    justify-content: center;
+}
+
+.Cancel__div1 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ; 
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+}
+
+.Cancel__div2 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ; 
+    align-items: center;
+    justify-content: center;
+    height: 87px;
+}
+
+
+.Cancel__div3 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ; 
+    align-items: center;
+    justify-content: center;
+    height: 105px;
+}
+
+
+.Cancel__div4 {
+    margin-top: 8px;
+    background-color: #171B21;
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    display: flex ; 
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+}
+
+
+
+
+
+.Redbubble {
+    background-color: #171B21; 
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+}
+
+.Shopify {
+    background-color: #171B21; 
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+}
+
+.Printful {
+    background-color: #171B21; 
+    max-width: 107px;
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+}
+
+
+@media screen  and  (max-width: 768px)  {
+    .feature__div {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .feature__feature {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Nameless__feature {
+       max-width: 100%;
+       width: 100%;
+    }
+
+    .GreenCheck__div {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .Teespring  {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .Cancel__div {
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+    .Redbubble {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .Shopify {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .Printful {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
 /* .feature__drivers, 
 .feature__comparison, 
 .feature__door ,
