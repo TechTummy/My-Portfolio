@@ -2552,6 +2552,17 @@ textarea:focus{
     background: #0e1218
 }
 
+@media screen and (max-width: 868px) {
+    .header {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding-left: 0px;
+    }
+}
 
   
 
@@ -3658,13 +3669,34 @@ textarea:focus{
      transition: color .3s, color .3s, border .3s
  }
 
+ .card__title-kruzin {
+    color: #1E1E1E;
+    leading-trim: both;
+    text-edge: cap;
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+     -webkit-transition: color .3s, color .3s, border .3s;
+    -o-transition: color .3s, color .3s, border .3s;
+    transition: color .3s, color .3s, border .3s
+}
+
  .card__title:hover {
      color: #f9d442;
 }
 
- @media(max-width: 1210px) {
+.card__title-kruzin:hover {
+    color: #f9d442;
+}
+
+@media(max-width: 1210px) {
      .card__title {
          font-size: calc(26px + 10 * ((100vw - 375px) / 835))
+     }
+
+     .card__title-kruzin{
+        font-size: calc(26px + 10 * ((100vw - 375px) / 835))
      }
  }
 
@@ -3672,11 +3704,21 @@ textarea:focus{
      .card__title {
          line-height: calc(26px + 10 * ((100vw - 375px) / 835))
      }
+
+     .card__title-kruzin{
+        line-height: calc(26px + 10 * ((100vw - 375px) / 835))
+     }
  }
 
  .card__title span {
      display: block
  }
+
+
+ .card__title-kruzin span{
+    display: block
+ }
+ 
 
  .card__text {
      color: #6d9985;
@@ -4759,6 +4801,61 @@ textarea:focus{
      }
  }
 
+ .custom-checkbox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    font-size: 12.91px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'Clash Display', sans-serif;
+    margin-top: 30px;
+  }
+  
+  .custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .custom-checkbox .checkmark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    background-color: transparent;
+    border: 1.5px solid #666;
+    border-radius: 4px;
+  }
+  
+  /* Show checkmark when checked */
+  .custom-checkbox input:checked + .checkmark {
+    background-color: transparent;
+    /* border-color: #00c264; */
+  }
+  
+  .custom-checkbox .checkmark::after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  
+  .custom-checkbox input:checked + .checkmark::after {
+    display: block;
+    left: 4px;
+    top: 0px;
+    width: 6px;
+    height: 12px;
+    border: 2px solid #6D9985;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
  .card--shop .card-box__poster-suptext {
      position: absolute;
      border-radius: 4px;
@@ -5173,6 +5270,7 @@ textarea:focus{
      font-weight: 600;
      font-family: 'Clash Display', sans-serif;
      text-transform: uppercase;
+     word-spacing: 5px;
   }
  
  
@@ -7333,7 +7431,7 @@ textarea:focus{
      padding-bottom: 60px;
      padding-left: 60px;
      border-radius: 25px;
-     background: #2d333c
+     background: #171B21;
  }
 
  @media(max-width: 1210px) {
@@ -7494,7 +7592,7 @@ textarea:focus{
      -webkit-box-direction: normal;
      -ms-flex-direction: column;
      flex-direction: column;
-     gap: 15px;
+     /* gap: 15px; */
      width: 100%
  }
 
@@ -7505,8 +7603,9 @@ textarea:focus{
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
-     gap: 25px
+     /* gap: 25px */
  }
+
 
  .reviews-top-body-item__line {
      width: 100%;
@@ -7604,7 +7703,7 @@ textarea:focus{
  }
 
  .reviews-comment-body {
-     width: 100%
+    width: 100%
  }
 
  .reviews-comment-body__text {
@@ -7615,8 +7714,9 @@ textarea:focus{
      font-style: normal;
      font-weight: 500;
      font-size: 16px;
-     line-height: 24px
+     line-height: 24px;
  }
+
 
  @media(max-width: 1210px) {
      .reviews-comment-body__text {
@@ -7631,7 +7731,7 @@ textarea:focus{
  }
 
  .reviews-comment-body-top {
-     margin-bottom: 10px;
+     /* margin-bottom: 10px; */
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
@@ -7644,8 +7744,10 @@ textarea:focus{
      -ms-flex-wrap: wrap;
      flex-wrap: wrap;
      gap: 25px;
-     row-gap: 10px
+     row-gap: 10px;
  }
+
+
 
  .reviews-comment-body-top__box-text {
      margin-bottom: 5px;
@@ -10854,7 +10956,7 @@ textarea:focus{
  }
 
  .section-top--space {
-     margin-top: 55px
+    margin-top: 5px
  }
 
  @media(max-width: 1210px) {
@@ -17395,6 +17497,8 @@ img {
 
 .feedback-container textarea {
   height: 134px;
+  width: 100%;
+  max-width: 100;
 }
 
 .feedback-container-cadence textarea {
@@ -17472,60 +17576,7 @@ img {
 
 
 
-.custom-checkbox {
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding-left: 28px;
-  cursor: pointer;
-  font-size: 12.91px;
-  line-height: 20px;
-  font-weight: 500;
-  font-family: 'Clash Display', sans-serif;
-  margin-top: 30px;
-}
 
-.custom-checkbox input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.custom-checkbox .checkmark {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 18px;
-  width: 18px;
-  background-color: transparent;
-  border: 1.5px solid #666;
-  border-radius: 4px;
-}
-
-/* Show checkmark when checked */
-.custom-checkbox input:checked + .checkmark {
-  background-color: transparent;
-  /* border-color: #00c264; */
-}
-
-.custom-checkbox .checkmark::after {
-  content: '';
-  position: absolute;
-  display: none;
-}
-
-.custom-checkbox input:checked + .checkmark::after {
-  display: block;
-  left: 4px;
-  top: 0px;
-  width: 6px;
-  height: 12px;
-  border: 2px solid #6D9985;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-}
 
 
 .TOC__link {
@@ -22538,7 +22589,7 @@ color: #222;
 }
 
 .fav-card-2{
-    background-color: #B84A4A;
+    background-color: #9AC04F;
 }
 
 .fav-card-3{
