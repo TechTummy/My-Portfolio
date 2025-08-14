@@ -988,7 +988,7 @@
  }
 
  button {
-     background: unset
+    background: unset
  }
 
  html,
@@ -2196,7 +2196,8 @@ textarea:focus{
 
  .body--white  .feedback-container-cadence input[type="email"] {
     background-color: #eef2f6;
-    color: #0e1218;
+    color: #0e1218 !important;
+    font-weight: 500;
  }
 
 
@@ -2249,6 +2250,10 @@ textarea:focus{
     color: #0e1218 !important;
  }
 
+ .body--white .competitor-analysis__p-p {
+    color: #0e1218 !important;
+ }
+
 
  .body--white .quicklink__one {
     color: #0e1218 !important;
@@ -2275,6 +2280,11 @@ textarea:focus{
     color: #0e1218 !important;
  }
 
+ .body--white .moodboard__p-p {
+    color: #0e1218 !important;
+ }
+
+ 
  .body--white .small__h1 {
     color: #0e1218 !important;
  }
@@ -2284,6 +2294,10 @@ textarea:focus{
 }
 
 .body--white .color__p {
+    color: #0e1218 !important;
+}
+
+.body--white .color__p-p {
     color: #0e1218 !important;
 }
 
@@ -5182,14 +5196,14 @@ textarea:focus{
 
  @media (min-width: 768px) and (max-width: 1211px) {
     .section-top__inner-cadence {
-        gap: 30px; 
-        padding: 40px;
+        /* gap: 30px;  */
+        /* padding: 40px; */
         flex-direction: column; 
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
         display: flex;
-        padding: 30px
+        /* padding: 30px */
     }
 }
 
@@ -5237,15 +5251,16 @@ textarea:focus{
  }
 
  @media(max-width: 1210px) {
-     .section-top__img-cadence {
-         height: calc(200px + 150 * ((100vw - 375px) / 835))
-     }
+    .section-top__img-cadence {
+        height: calc(200px + 150 * ((100vw - 375px) / 835))
+    }
  }
 
  @media(max-width: 1210px) {
-     .section-top__img-cadence {
-         max-height: calc(200px + 150 * ((100vw - 375px) / 835))
-     }
+    .section-top__img-cadence {
+        max-height: calc(200px + 150 * ((100vw - 375px) / 835))
+        
+    }
  }
 
 
@@ -11017,7 +11032,7 @@ textarea:focus{
 
  .group-profile-media-item {
      border-radius: 25px;
-     background: #2d333c;
+     background: #171B21;
      padding-top: 60px;
      padding-right: 60px;
      padding-bottom: 60px;
@@ -11325,7 +11340,7 @@ textarea:focus{
 
  .aside-block-cadence {
     border-radius: 25px;
-    background: #2D333C;
+    background: #171B21;
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -12497,14 +12512,14 @@ textarea:focus{
  }
 
  .group-profile-posts__inner {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-orient: vertical;
-     -webkit-box-direction: normal;
-     -ms-flex-direction: column;
-     flex-direction: column;
-     gap: 20px
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 20px
  }
 
  .group-profile-posts__img {
@@ -12523,7 +12538,7 @@ textarea:focus{
  .post {
     position: relative;
     border-radius: 25px;
-    background: #2d333c;
+    background: #171B21;
     padding-top: 60px;
     padding-right: 60px;
     padding-bottom: 60px;
@@ -12568,7 +12583,7 @@ textarea:focus{
 
 @media (max-width: 768px) {
     .design__descrip-P {
-        font-size: 11px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 150%;
         color: #FFFFFF;
@@ -12578,7 +12593,7 @@ textarea:focus{
 
 @media (max-width: 480px) {
     .design__descrip-P {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 150%;
         color: #FFFFFF;
@@ -12789,7 +12804,7 @@ textarea:focus{
 
 @media (max-width: 768px) {
     .Keywords-2__h1 {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
         line-height: 130%;
         color: #FFFFFf;
@@ -12800,7 +12815,7 @@ textarea:focus{
 
 @media (max-width: 480px) {
     .Keywords-2__h1 {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 500;
         line-height: 130%;
         color: #FFFFFf;
@@ -13199,7 +13214,7 @@ textarea:focus{
 
 @media (max-width: 768px) {
     .key-ins__div p {
-        font-size: 12px;
+        font-size: 14px;
         color: #FFFFFF;
         line-height: 164%;
         font-weight: 400;
@@ -13211,7 +13226,7 @@ textarea:focus{
 
 @media (max-width: 480px) {
     .key-ins__div p {
-        font-size: 9px;
+        font-size: 12px;
         color: #FFFFFF;
         line-height: 164%;
         font-weight: 400;
@@ -15494,6 +15509,8 @@ textarea:focus{
         padding: 0 15px;
     }
     
+
+    
     .overlay-button {
         width: 180px;
         height: 45px;
@@ -16879,7 +16896,7 @@ img {
 
 
 .moodboard__p {
-    font-weight: 300;
+    font-weight: 400;
     line-height: 18px;
     font-size: 16px;
 }
@@ -17245,6 +17262,7 @@ img {
         grid-template-columns: repeat(3, 1fr);
         gap: 8px;
         padding-top: 10px;
+        white-space: nowrap;
     }
     
     
@@ -17463,7 +17481,7 @@ img {
     line-height: 150%;
     font-weight: 600;
     margin-bottom: 20px;
-  }
+}
 
 .feedback-container textarea,
 .feedback-container input[type="text"],
@@ -17483,7 +17501,7 @@ img {
 .feedback-container-cadence textarea,
 .feedback-container-cadence input[type="text"],
 .feedback-container-cadence input[type="email"] {
-  width: 100%;
+  /* width: 100%; */
   background-color: #2D333C;
   color: #fff;
   border: 0.56px solid #4B515A;
@@ -17495,15 +17513,22 @@ img {
 }
 
 
+.feedback-container-cadence input[type="email"] {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
 .feedback-container textarea {
   height: 134px;
   width: 100%;
-  max-width: 100;
 }
 
 .feedback-container-cadence textarea {
     height: 134px;
-  }
+    width: 100%;
+}
   
 
 .feedback-container input[type="text"],
@@ -17701,7 +17726,8 @@ img {
     align-items: start;
     gap: 25px;
     margin-bottom: 25px;
-    position: relative
+    position: relative;
+
  }
 
  @media(max-width: 1210px) {
@@ -17712,7 +17738,7 @@ img {
 
  @media(max-width: 1210px) {
      .post-body-top {
-         margin-bottom: calc(20px + 5 * ((100vw - 375px) / 835))
+        margin-bottom: calc(20px + 5 * ((100vw - 375px) / 835))
      }
  }
 
@@ -18491,6 +18517,20 @@ img {
      line-height: 16px;
      text-transform: uppercase
  }
+
+ .video-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 13px;
+  }
+  
 
  .file {
      background: #0e1218;

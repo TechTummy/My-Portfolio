@@ -91,26 +91,43 @@
             align-items: center;
             gap: 10px;
             margin-bottom: 30px;
+            line-height: 1.2;
         }
 
         .custom-checkbox {
-            width: 24px;
-            height: 24px;
-            background-color: #323741;
-            border-radius: 4px;
             display: flex;
             align-items: center;
-            justify-content: center;
+            position: relative;
+            padding-left: 28px;
             cursor: pointer;
+            font-size: 12.91px;
+            line-height: 20px;
+            font-weight: 500;
+            font-family: 'Clash Display', sans-serif;
+            margin-top: 30px;
+        }
+
+        .custom-checkbox input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
         }
 
         .custom-checkbox.checked {
-            background-color: #9d7bb5;
+            /* background-color: #9d7bb5; */
         }
 
         .custom-checkbox .checkmark {
-            color: white;
-            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 18px;
+            width: 18px;
+            background-color: transparent;
+            border: 1.5px solid #666;
+            border-radius: 4px;
         }
 
         .custom-checkbox.checked .checkmark {
@@ -3918,11 +3935,14 @@
                                 </div>
                                 
                                 <div class="checkbox-container">
-                                    <div class="custom-checkbox checked" id="saveInfoCheckbox">
-                                        <span class="checkmark">✓</span>
-                                    </div>
-                                    <label class="checkbox-label" for="saveInfoCheckbox">
-                                        Save my name, email, and website in this browser for the next time I comment.
+                                    <!-- <div class="custom-checkboxx checked" id="saveInfoCheckbox"> -->
+                                    <label class="custom-checkbox">
+                                        <input type="checkbox" checked />
+                                        <span class="checkmark"></span>
+                        
+                                        <label class="checkbox-label" for="saveInfoCheckbox">
+                                            Save my name, email, and website in this browser for the next time I comment.
+                                        </label>
                                     </label>
                                 </div>
                                 
@@ -4465,6 +4485,27 @@
            </section>
 
     <button class="switch-button"></button>
+
+    <script>
+        const checkbox = document.getElementById('saveInfoCheckbox');
+        const checkmark = checkbox.querySelector('.checkmark');
+      
+        checkbox.addEventListener('click', () => {
+          checkbox.classList.toggle('checked');
+          checkmark.style.display = checkbox.classList.contains('checked') ? 'block' : 'none';
+        });
+      
+        // Optional: Save checkbox state
+        if (localStorage.getItem('saveInfo') === 'true') {
+          checkbox.classList.add('checked');
+          checkmark.style.display = 'block';
+        }
+      
+        checkbox.addEventListener('click', () => {
+          const isChecked = checkbox.classList.contains('checked');
+          localStorage.setItem('saveInfo', isChecked);
+        });
+    </script>
 
   
 
