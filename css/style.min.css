@@ -2509,6 +2509,14 @@ textarea:focus{
     color: #0e1218;
 }
 
+.body--white .info-card {
+    background-color: #fff;
+}
+
+.body--white .info-card p {
+    color: #0e1218;
+}
+
 
 .body--white .solutions-head {
     background-color: #fff;
@@ -2557,6 +2565,76 @@ textarea:focus{
 }
 
 .body--white .gamification-head p {
+    color: #0e1218;
+}
+
+.body--white .outcome-point {
+    background-color: #fff;
+}
+
+.body--white .outcome-point p {
+    color: #0e1218;
+}
+
+.terms-div {
+    background-color: #212832;
+}
+
+.terms-div p {
+    color: #fff;
+}
+
+.body--white .terms-div p {
+    color: #0e1218;
+}
+
+.body--white .terms-div {
+    background-color: #fff; 
+}
+
+.issuefix {
+    background-color: #13161B;
+}
+
+.issuefixh1 {
+    color: #171B21;
+}
+
+
+.body--white .issuefix {
+    background-color: #fff;
+}
+
+.body--white .issuefixh1 {
+    color: #fff;
+}
+
+
+.issuefixDiv {
+    background-color: #171B21; 
+}
+
+.issuefixDiv h1 {
+    color: #CBCBCB; 
+}
+
+.body--white .issuefixDiv h1 {
+    color: #0e1218;
+}
+
+
+.body--white 
+.issuefixDiv {
+    background-color: #eef2f6; 
+    border: 1px solid #0e1218;
+}
+
+
+.core-p {
+    color: #FFFFFF;
+}
+
+.body--white .core-p {
     color: #0e1218;
 }
 
@@ -16021,6 +16099,8 @@ textarea:focus{
     margin-top: 16px;
 }
 
+
+
 .outcome-point:first-child {
     margin-top: 0;
 }
@@ -16702,7 +16782,6 @@ img {
     display: flex;
     align-items: flex-start;
     gap: 16px;
-    flex-wrap: wrap;
 }
 
 .card-container {
@@ -16718,6 +16797,12 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+    .term__div {
+        flex-wrap: wrap;
+    }
+
+
+
     /* .term__div {
         display: flex;
         align-items: center;
