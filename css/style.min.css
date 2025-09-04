@@ -2400,6 +2400,14 @@ textarea:focus{
    color: #0e1218;
 }
 
+.body--white .seniors__body > div li  {
+    color: #0e1218;
+ }
+
+.body--white .caregivers__body > div li  {
+    color: #0e1218;
+}
+
 .body--white .caregivers__body {
     background-color: #eef2f6;
     border: 1px solid #0e1218;
@@ -2415,6 +2423,22 @@ textarea:focus{
 }
 
 .body--white .drivers__body p {
+    color: #0e1218;
+}
+
+.body--white .drivers__body > div li {
+    color: #0e1218;
+}
+
+.body--white .pro-comments-h1 {
+    color: #0e1218;
+}
+
+.body--white .pro-comparison {
+    background-color: #eef2f6;
+}
+
+.body--white .kruzin__div-white-h1 {
     color: #0e1218;
 }
 
@@ -2471,6 +2495,16 @@ textarea:focus{
 .body--white .comparison-feature {
     background-color: #eef2f6;
 }
+
+.body--white .inner__success__div {
+    background-color: #eef2f6;
+}
+
+
+.body--white .inner__success__div li {
+    color: #0e1218;
+}
+
 
 
 .body--white .TOC__link {
@@ -2610,6 +2644,18 @@ textarea:focus{
 }
 
 
+.body--white  .deliverables-Kruzin-p {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+    color: #0e1218;
+ }
+
+ .body--white  .d-color {
+    color: #0e1218;
+    font-weight: 500;
+ }
+
 .issuefixDiv {
     background-color: #171B21; 
 }
@@ -2669,7 +2715,10 @@ textarea:focus{
 
 .body--white .problem__list {
     color: #0e1218;
+}
 
+.body--white .key__findings__h1 {
+    color: #0e1218;
 }
 
 .body--white .bg-bg {
@@ -2725,11 +2774,37 @@ textarea:focus{
     background-color: #eef2f6;
     border: 1px solid #0e1218;
 }
+
+
+
+.body--white .success_div {
+    background-color: #fff;
+}
   
 
 .body--white .GreenCheck__div3 {
     background-color: #eef2f6;
     border: 1px solid #0e1218;
+}
+
+.body--white .kruzin__survey {
+    border-top: 0.5px solid #0e1218;
+    border-left: 0.5px solid #0e1218;
+    border-bottom: 0.1px solid #0e1218;
+    border-right: 0.1px solid #0e1218;
+}
+
+.body--white .kruzin__survey > div h1 {
+    color: #0e1218;
+}
+
+.body--white .kruzin__survey > div p {
+    color: #0e1218;
+}
+
+
+.body--white .professional__box {
+    border-left: 0.1px solid #0e1218;
 }
   
 
@@ -2779,6 +2854,24 @@ textarea:focus{
     border: 1px solid #0e1218; 
 }
 
+.body--white  .role__box1__Kruzin {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218;
+}
+
+.body--white  .role__box3__Kruzin {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218;
+}
+
+.body--white  .role__box3__Kruzin li {
+    color: #0e1218; 
+}
+
+.body--white  .role__box1__Kruzin-p {
+    color: #0e1218; 
+ }
+
 .body--white .Cancel__div3 {
     background-color: #eef2f6;
     border: 1px solid #0e1218; 
@@ -2795,6 +2888,170 @@ textarea:focus{
     border: 1px solid #0e1218; 
     color: #0e1218;
 }
+
+
+.body--white .gogrand__h1 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .feature__comparison {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .go__green__check {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .go__green__check1 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .go__green__check2 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .go__green__check3 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .go__green__check4 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .feature__drivers {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .feature__door {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .feature__alerts {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .feature__booking {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .feature__history {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .kruzin__h1 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .green__check {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .green__check1 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .green__check2 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .green__check3 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .green__check4 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .uber__h1 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+
+.body--white .cancel__svg {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .cancel__svg1 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .cancel__svg2 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+.body--white .cancel__svg3 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .cancel__svg4 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
+
+.body--white .lyft__h1 {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+    color: #0e1218;
+}
+
 
 
 .body--white .problem-comments {
@@ -14056,6 +14313,11 @@ textarea:focus{
 }
 
 
+.inner__success__div li {
+   color: #FFFFFF;
+}
+
+
 .key__persona__kruzin {
     color: #6D9985;
     font-size: 24px;
@@ -14104,7 +14366,14 @@ textarea:focus{
     width: 100%;
     margin-top: 15px;
 }
+
+.seniors__body > div li  {
+    color: #FFFFFF;
+}
  
+.caregivers__body > div li  {
+    color: #FFFFFF;
+}
 
 .seniors__body {
     background-color: #171B21;
@@ -14130,6 +14399,22 @@ textarea:focus{
     border-radius: 21px;
     margin-top: 10px;
     width: 100%;
+}
+
+.pro-comments-h1 {
+    color: #ffffff;
+}
+
+.pro-comparison {
+    background-color: #13161B; 
+}
+
+.drivers__body > div li {
+    color: #fff;
+}
+
+.kruzin__div-white-h1 {
+    color: #FFFFFF;
 }
 
 .key__persona__kruzin__flexbox {
@@ -15151,6 +15436,10 @@ textarea:focus{
     align-items: center;
     justify-content: center;
     margin-top: 8px;
+}
+
+.professional__box {
+    border-left: 0.1px solid #FFFFFF30;
 }
 
 @media (max-width: 768px) {
@@ -17309,6 +17598,10 @@ img {
     font-weight: 600;
  }
 
+ .d-color {
+    color: #CBCBCB;
+ }
+
 
 .QA__h1 {
     font-size: 36px;
@@ -17900,6 +18193,10 @@ img {
     padding: 24px;
     height: 300px;
     max-height: 100%;
+ }
+
+ .role__box1__Kruzin-p {
+    color: #FFFFFF; 
  }
 
  .role__box2 {
