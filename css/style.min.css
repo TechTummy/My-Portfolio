@@ -3061,6 +3061,11 @@ textarea:focus{
 .body--white .problem-comment-p {
     color: #0e1218;
 }
+
+
+.body--white .flow-container2 {
+    background-color: #fff;
+}
     
 
 
@@ -15637,7 +15642,7 @@ textarea:focus{
     padding: 40px 20px;
     color: #fff;
     background-color: #171B21;
-  }
+}
 
   
   .node {
