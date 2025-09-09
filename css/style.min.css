@@ -3065,8 +3065,65 @@ textarea:focus{
 
 .body--white .flow-container2 {
     background-color: #fff;
+    color: #0e1218;
 }
     
+
+.w-worked {
+    background-color: #212832;
+}
+
+.w-didnt {
+    background-color: #13161B; 
+}
+
+
+.issue-fix__div {
+    background-color: #171B21;
+}
+
+.issue-fix__div h1 {
+    color: #CBCBCB !important;
+}
+
+.p-core {
+    color: #FFFFFF;
+}
+
+.body--white .p-core {
+    color: #0e1218;
+}
+
+
+.body--white .issue-fix__div h1 {
+    color: #0e1218 !important;
+}
+
+.body--white .issue-fix__div {
+    background-color: #eef2f6;
+    border: 1px solid #0e1218; 
+}
+
+.w-didnt > div h1 {
+    color: #171B21;
+}
+
+
+.body--white .w-didnt > div h1 {
+    color: #fff;
+}
+
+.body--white .w-didnt {
+    background-color: #fff;
+}
+
+.body--white .w-worked {
+    background-color: #fff;
+}
+
+.body--white .w-worked p {
+    color: #0e1218;
+}
 
 
 .body--white .stats-cell {
