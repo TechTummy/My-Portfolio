@@ -3090,6 +3090,19 @@ textarea:focus{
     color: #FFFFFF;
 }
 
+
+.next-card {
+    background-color: #212832;
+}
+
+.body--white .next-card {
+    background-color: #fff;
+}
+
+.body--white .next-card p {
+    color: #0e1218;
+}
+
 .body--white .p-core {
     color: #0e1218;
 }
