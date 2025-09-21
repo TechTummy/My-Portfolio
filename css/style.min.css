@@ -2222,6 +2222,48 @@ textarea:focus{
  }
 
 
+ .body--white .registered__div {
+    background-color: #eef2f6;
+}
+
+.body--white .monthly__div {
+    background-color: #eef2f6;
+}
+
+.body--white .assisted__div {
+    background-color: #eef2f6;
+}
+
+.body--white .geographic__div {
+    background-color: #eef2f6;
+}
+
+.body--white .lifetime__div {
+    background-color: #eef2f6;
+}
+
+
+
+.body--white .registered__div > div h1 {
+    color: #0e1218;
+}
+
+.body--white .monthly__div > div h1  {
+    color: #0e1218;
+}
+
+.body--white .assisted__div > div h1 {
+    color: #0e1218;
+}
+
+.body--white .geographic__div > div h1 {
+    color: #0e1218;
+}
+
+.body--white .lifetime__div > div h1 {
+    color: #0e1218;
+}
+
  .body--white .feedback-container textarea {
     background-color: #eef2f6;
     color: #0e1218;
@@ -14779,7 +14821,7 @@ textarea:focus{
 
 .kruzin__connect__connect {
     background-color: #171B21;
-    padding: 20px;
+    padding: 20px !important;
     border-radius: 21px;
     min-height: 184px;
     max-width: 258px;
@@ -18288,10 +18330,14 @@ img {
 
  .role__box3__Kruzin {
     background-color: #212832;
-    padding: 24px;
+    padding: 24px !important;
     border-radius: 16px;
     height: 300px;
     max-height: 100%;
+ }
+
+ .role__box3__Kruzin li {
+   color: #fff;
  }
 
  .role__flexbox {
