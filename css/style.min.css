@@ -2308,6 +2308,22 @@ textarea:focus{
     background-color: #fff;
 }
 
+.product-page {
+    background-color: #1B1F26B8;
+}
+
+.body--white .product-page {
+    background-color: #fff;
+}
+
+
+.product-page__li {
+    color: #FFFFFF; 
+}
+
+.body--white .product-page__li {
+    color: #0e1218;
+}
 
 
  .body--white .competitor-analysis__h1{
@@ -6331,7 +6347,7 @@ textarea:focus{
     position: absolute;
     right: 510px;
     top: 325px;
-    width: clamp(200px, 30vw, 400px);
+    /* width: clamp(200px, 30vw, 400px); */
     z-index: 2;
 }
 
@@ -20783,6 +20799,14 @@ div[style*="display: grid"][style*="grid-template-columns: repeat(7 , 1fr)"] > d
         text-align: start !important;
         margin-bottom: 20px !important;
         color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-title {
+        font-size: 16px !important;
+        text-align: start !important;
+        margin-bottom: 15px !important;
     }
 }
 
