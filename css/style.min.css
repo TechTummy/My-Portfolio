@@ -6265,7 +6265,7 @@ textarea:focus{
     width: 100%;
     height: 100%;
     object-fit: cover;
-
+    
  }
 
 
@@ -6343,10 +6343,10 @@ textarea:focus{
 
 
 
- .Nameless__Image {
+.Nameless__Image {
     position: absolute;
-    right: 510px;
-    top: 325px;
+    left: 52vw;
+    top: 58vh;
     /* width: clamp(200px, 30vw, 400px); */
     z-index: 2;
 }
