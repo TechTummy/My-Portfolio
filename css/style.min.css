@@ -14279,6 +14279,17 @@ textarea:focus{
     font-weight: 600;
 }
 
+.view__btn {
+    background-color: #6D9985;
+    color: #FFFFFF;
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
 
 
 
@@ -14293,7 +14304,16 @@ textarea:focus{
         line-height: 11.25px;
         font-weight: 600;
     }
-    
+    .view__btn {
+        background-color: #6D9985;
+        color: #FFFFFF;
+        width: 118px;
+        height: 31px;
+        border-radius: 5.62px;
+        font-size: 10px;
+        line-height: 11.25px;
+        font-weight: 600;
+    }
 
 }
 
@@ -14309,13 +14329,22 @@ textarea:focus{
         line-height: 8.97px;
         font-weight: 600;
     }
-    
+    .view__btn {
+        background-color: #6D9985;
+        color: #FFFFFF;
+        width: 122px;
+        height: 37px;
+        border-radius: 4px;
+        font-size: 10px;
+        line-height: 8.97px;
+        font-weight: 600;
+    }
 }
 
 
 
 .fullaccess__btn {
-    background-color: #FF99C0;
+    background-color: #6D9985;
     color: #FFFFFF;
     width: 210px;
     height: 50px;
@@ -14328,7 +14357,7 @@ textarea:focus{
 
 @media (max-width: 768px) {
     .fullaccess__btn {
-        background-color: #FF99C0;
+        background-color: #6D9985;
         color: #FFFFFF;
         width: 119px;
         height: 31px;
@@ -14344,7 +14373,7 @@ textarea:focus{
 
 @media (max-width: 480px) {
     .fullaccess__btn {
-        background-color: #FF99C0;
+        background-color: #6D9985;
         color: #FFFFFF;
         width: 122px;
         height: 37px;
