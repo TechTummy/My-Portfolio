@@ -6043,6 +6043,20 @@ textarea:focus{
     padding: 60px
  }
 
+  .section-top__inner-wta {
+    border-radius: 25px;
+    background-color: #295E83;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px
+ }
+
 
  @media (min-width: 768px) and (max-width: 1211px) {
     .section-top__inner-cadence {
@@ -6147,6 +6161,17 @@ textarea:focus{
     text-transform: uppercase;
     word-spacing: 5px;
  }
+
+  .team-text-wta {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    font-family: 'Clash Display', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+ }
+ 
  
   .myteam__text-cadence {
      color: #0E1218;
@@ -6179,6 +6204,19 @@ textarea:focus{
     /* padding: 4px 20px 4px 8px; */
     border-radius: 4px;
  }
+
+ .team-bg-wta {
+    background-color: #9B7F35;
+    max-width: 235px;
+    text-align: center;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* height: 24px; */
+    /* padding: 4px 20px 4px 8px; */
+    border-radius: 4px;
+ }
+
 
  .features__grid {
     display: grid;
